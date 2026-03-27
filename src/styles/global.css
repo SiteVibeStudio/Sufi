@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ethereal-dark: #1b365d;
+  --color-ethereal-light: #d6e8f4;
+  --color-ethereal-accent: #2c4c7c;
+  --color-ethereal-card: rgba(255, 255, 255, 0.6);
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Cairo", sans-serif;
+  --shadow-ethereal: 0 8px 32px 0 rgba(27, 54, 93, 0.15);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-ethereal-light);
+    color: var(--color-ethereal-dark);
+  }
+}

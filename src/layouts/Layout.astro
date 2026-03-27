@@ -11,20 +11,23 @@ const { title, description } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en" class="dark scroll-smooth">
+<html lang="ar" dir="rtl" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
     <SEO title={title} description={description} />
   </head>
-  <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col antialiased selection:bg-indigo-500 selection:text-white">
-    <main class="flex-grow">
+  <body class="bg-ethereal-light text-ethereal-dark min-h-screen flex flex-col font-sans antialiased selection:bg-ethereal-accent selection:text-white">
+    <main class="flex-grow flex flex-col items-center w-full">
       <slot />
     </main>
-    <footer class="py-6 text-center text-sm text-gray-400 border-t border-gray-800 mt-auto">
-      <p>Designed and Developed by SiteVibe Studio</p>
+    <footer class="py-6 w-full text-center text-sm font-semibold text-ethereal-dark border-t border-ethereal-accent/20 mt-auto bg-white/30 backdrop-blur-sm">
+      <p>ينشر من قبل SiteVibe Studio</p>
     </footer>
   </body>
 </html>
