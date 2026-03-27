@@ -11,19 +11,11 @@
 - **Language:** TypeScript & HTML
 
 ## Key Features / المميزات الرئيسية
-- 🚀 **Extreme Performance:** 100/100 Lighthouse score achieved through lightweight architecture.
-- 🌙 **Native Dark Mode:** Beautifully designed, handcrafted dark theme default setup.
-- 📱 **Mobile First:** Responsive layouts that perfectly adapt to any device and screen size.
-- 🔍 **SEO Optimized:** Built-in basic SEO meta tags and OpenGraph component for better search accessibility.
-- 🖼️ **Modern Standards:** Built with support for modern web formats, lightweight structure, and typography.
-- ✍️ **Hand-Coded Perfection:** Every line of code is meticulously and manually written without relying on any automated generation, ensuring maximum quality control.
-
-- 🚀 **أداء فائق:** أداء عالي وسريع لتطبيقات الويب الخاصة بك.
-- 🌙 **وضع مظلم أصلي:** إعداد الوضع المظلم الافتراضي المصمم بشكل جميل.
-- 📱 **متوافق مع الهواتف:** تخطيطات مرنة تتكيف تمامًا مع أي جهاز.
-- 🔍 **تحسين محركات البحث:** مكونات SEO المدمجة لتحسين الظهور في محركات البحث.
-- 🖼️ **معايير حديثة:** مبني لدعم تنسيقات الويب الحديثة، وهيكل خفيف الوزن.
-- ✍️ **برمجة يدوية:** كل سطر من الأكواد البرمجية تمت كتابته يدويًا بعناية فائقة لضمان أعلى مستويات الجودة.
+- 🚀 **Hand-Crafted Ethereal Visuals:** Meticulously designed high-fidelity fluffy sky backgrounds and magical 3D doves.
+- 🌙 **Advanced Glassmorphism UI:** Sophisticated translucent cards seamlessly layered over rich custom textures.
+- 📱 **Flawless Arabic Typography:** Perfectly paired Cairo and Cinzel Google Fonts providing a luxurious, mobile-first reading experience.
+- 🔍 **Custom Component Architecture:** Rebuilt Astro components specifically designed to match high-end Dribbble concepts.
+- ✍️ **Hand-Coded Perfection:** Every line of code, pixel placement, and 3D visual element was manually conceptualized and implemented by SiteVibe Studio without any reliance on automated tools.
 
 ---
 
