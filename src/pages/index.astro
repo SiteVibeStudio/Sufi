@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="SiteVibe Master Template | Dark Mode" description="A modern, high-performance Astro template with Tailwind CSS.">
+  <div class="container mx-auto px-4 py-24 max-w-4xl flex flex-col items-center text-center space-y-8">
+    
+    <div class="inline-block px-4 py-1.5 rounded-full bg-indigo-500/10 text-indigo-400 text-sm font-medium tracking-wide border border-indigo-500/20 mb-4 animate-[fade-in-up_0.5s_ease-out]">
+      ✨ Astro + Tailwind Master Template
+    </div>
+    
+    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+      Build the <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Future</span> of Web
+    </h1>
+    
+    <p class="text-xl md:text-2xl text-gray-400 max-w-2xl mb-12">
+      Experience extreme performance and a beautiful dark mode out of the box. Hand-coded perfection, optimized for your next big project.
+    </p>
+    
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="#" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-indigo-500/30">
+        Get Started
+      </a>
+      <a href="#" class="px-8 py-4 bg-gray-800 hover:bg-gray-700 text-gray-200 font-semibold rounded-lg transition-all duration-300 border border-gray-700">
+        Documentation
+      </a>
+    </div>
+
+    <!-- Example of utilizing WebP for optimized performance if there was an actual image included -->
+    <div class="mt-20 w-full p-1 rounded-2xl bg-gradient-to-b from-gray-800 to-transparent">
+       <div class="bg-gray-900 rounded-xl p-8 border border-gray-800/50 shadow-2xl relative overflow-hidden">
+         <div class="absolute top-0 right-0 p-32 bg-indigo-500/5 blur-[120px] rounded-full pointer-events-none"></div>
+         <div class="absolute bottom-0 left-0 p-32 bg-cyan-500/5 blur-[120px] rounded-full pointer-events-none"></div>
+         
+         <h2 class="text-2xl font-bold text-white mb-4">Why SiteVibe Master?</h2>
+         <ul class="text-left py-4 space-y-4 text-gray-300 grid grid-cols-1 md:grid-cols-2 gap-x-8">
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400">✓</span> 100/100 Lighthouse Score
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400">✓</span> Full SEO Optimization
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400">✓</span> Modern Dark Theme
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-indigo-400">✓</span> Hand-crafted Web Components
+            </li>
+         </ul>
+       </div>
+    </div>
+  </div>
+</Layout>

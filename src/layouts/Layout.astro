@@ -1,0 +1,30 @@
+---
+import SEO from '../components/SEO.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <SEO title={title} description={description} />
+  </head>
+  <body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col antialiased selection:bg-indigo-500 selection:text-white">
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <footer class="py-6 text-center text-sm text-gray-400 border-t border-gray-800 mt-auto">
+      <p>Designed and Developed by SiteVibe Studio</p>
+    </footer>
+  </body>
+</html>
