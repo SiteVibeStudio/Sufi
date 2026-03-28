@@ -35,10 +35,10 @@ import Layout from '../layouts/Layout.astro';
     <!-- The Fluffy Cloud Floor (Transitions to body) -->
     <div class="absolute bottom-0 left-0 right-0 z-20 flex justify-center items-end transform translate-y-1/4 pointer-events-none">
       <!-- Cluster of overlapping clouds -->
-      <img src="/f-cloud-dark.png" alt="Cloud" class="w-1/2 max-w-[500px] object-contain -mr-20 z-10" />
-      <img src="/f-cloud-light.png" alt="Cloud" class="w-1/2 max-w-[600px] object-contain mb-8 z-20 scale-125 origin-bottom" />
-      <img src="/f-cloud-dark.png" alt="Cloud" class="w-1/3 max-w-[400px] object-contain -ml-20 mb-4 z-10" />
-      <img src="/f-cloud-light.png" alt="Cloud" class="absolute right-0 bottom-0 w-1/4 max-w-[300px] object-contain translate-x-1/2 mb-12 z-30" />
+      <img src="/f-cloud-dark.png" alt="Cloud" class="w-1/2 max-w-[500px] object-contain -mr-20 z-10 animate-[float_10s_ease-in-out_infinite]" />
+      <img src="/f-cloud-light.png" alt="Cloud" class="w-1/2 max-w-[600px] object-contain mb-8 z-20 scale-125 origin-bottom animate-[float_12s_ease-in-out_infinite_reverse]" />
+      <img src="/f-cloud-dark.png" alt="Cloud" class="w-1/3 max-w-[400px] object-contain -ml-20 mb-4 z-10 animate-[float_9s_ease-in-out_infinite]" />
+      <img src="/f-cloud-light.png" alt="Cloud" class="absolute right-0 bottom-0 w-1/4 max-w-[300px] object-contain translate-x-1/2 mb-12 z-30 animate-[float_11s_ease-in-out_infinite_reverse]" />
     </div>
     
     <!-- Gradient Fade into next section -->
@@ -49,12 +49,12 @@ import Layout from '../layouts/Layout.astro';
   <div class="w-full bg-ethereal-light flex flex-col items-center pt-24 pb-24 relative overflow-hidden">
     
     <!-- Decorative Floating Assets in the body -->
-    <img src="/f-cloud-light.png" alt="Cloud" class="absolute top-[20%] -right-32 w-96 opacity-50 z-0 pointer-events-none drop-shadow-xl" />
-    <img src="/f-cloud-light.png" alt="Cloud" class="absolute top-[60%] -left-48 w-[500px] opacity-40 z-0 pointer-events-none drop-shadow-xl transform -scale-x-100" />
+    <img src="/f-cloud-light.png" alt="Cloud" class="absolute top-[20%] -right-32 w-96 opacity-50 z-0 pointer-events-none drop-shadow-xl animate-[float_14s_ease-in-out_infinite_reverse]" />
+    <img src="/f-cloud-light.png" alt="Cloud" class="absolute top-[60%] -left-48 w-[500px] opacity-40 z-0 pointer-events-none drop-shadow-xl transform -scale-x-100 animate-[float_15s_ease-in-out_infinite]" />
     
     <!-- Decorative Flying Doves -->
-    <img src="/dove.png" alt="Dove" class="absolute top-48 left-8 w-32 md:w-48 h-auto mix-blend-color-burn opacity-70 rotate-12 pointer-events-none z-10" />
-    <img src="/dove.png" alt="Dove" class="absolute top-[40%] right-8 w-40 md:w-56 h-auto mix-blend-color-burn opacity-60 -rotate-12 pointer-events-none z-10 transform scale-x-[-1]" />
+    <img src="/dove.png" alt="Dove" class="absolute top-48 left-8 w-32 md:w-48 h-auto mix-blend-color-burn opacity-70 rotate-12 pointer-events-none z-10 animate-[floatDoves_7s_ease-in-out_infinite]" />
+    <img src="/dove.png" alt="Dove" class="absolute top-[40%] right-8 w-40 md:w-56 h-auto mix-blend-color-burn opacity-60 -rotate-12 pointer-events-none z-10 transform scale-x-[-1] animate-[floatDoves_8s_ease-in-out_infinite_reverse]" />
     
     <div class="w-full max-w-4xl px-4 flex flex-col items-center gap-16 relative z-20">
       
