@@ -38,6 +38,10 @@
 }
 
 @layer base {
+  html, body {
+    overflow-x: hidden;
+  }
+  
   body {
     background: linear-gradient(135deg, #FDF7F5 0%, #E8EEF0 100%) !important;
     background-attachment: fixed !important;
