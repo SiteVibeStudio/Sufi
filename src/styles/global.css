@@ -45,6 +45,7 @@
     background-attachment: fixed !important;
     position: relative;
     color: var(--color-ethereal-dark);
+    overflow-x: clip;
   }
 
   body::before {
